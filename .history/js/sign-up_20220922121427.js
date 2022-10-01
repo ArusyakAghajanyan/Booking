@@ -1,0 +1,2 @@
+// Elements
+const $loginTextInputs = document.querySelectorAll('.login__text-input');

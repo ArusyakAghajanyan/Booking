@@ -1,0 +1,21 @@
+.base-button {
+    border: none;
+    background-color: transparent;
+    padding: 8px;
+}
+
+&:hover {
+    cursor: pointer;
+}
+&--primary {
+    background-color: $primary;
+    color: $white;
+
+    &:hover {
+        background-color: $primary-light;
+    }
+    &:focus,
+    &:active {
+        background-color: $primary-dark;
+    }
+}

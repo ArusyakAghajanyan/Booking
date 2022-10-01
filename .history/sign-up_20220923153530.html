@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Login</title>
+</head>
+   <body>
+        <div class="login__center">
+            <h1 class="login__center-title">Signup</h1>
+            <form class="login__center-form">
+                <div class="login__text-field">
+                    <input id="username" class="login__text-input" type="text" name="username" required>
+                    <span class="login__text-span"></span>
+                    <label for="username" class="login__text-label">Username</label>
+                </div>
+                <div class="login__text-field">
+                    <input id="email" class="login__text-input" type="email" name="email" required>
+                    <span class="login__text-span"></span>
+                    <label for="email" class="login__text-label">E-mail</label>
+                </div>
+                <div class="login__text-field">
+                    <input id="password"  class="login__text-input" type="password" name="password" required>
+                    <span class="login__text-span"></span>
+                    <label for="password" class="login__text-label">Password</label>
+                </div>        
+                <div class="login__text-field">
+                    <input id="confirm-password"  class="login__text-input" type="password" name="confirmPassword" required>
+                    <span class="login__text-span"></span>
+                    <label for="confirm-password" class="login__text-label">Re-enter password</label>
+                </div>               
+                <input class= "login__text-input base-button base-button--secondary" type="submit" value="Crea" >                  
+            </form>
+        </div>  
+        <script src="./js/sign-up.js" type="module"></script>      
+    </body>
+</html>

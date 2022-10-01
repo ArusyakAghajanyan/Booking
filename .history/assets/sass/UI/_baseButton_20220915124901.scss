@@ -1,0 +1,11 @@
+.base-button {
+    border: none;
+    background-color: transparent;
+}
+
+&:hover {
+    cursor: pointer;
+}
+&--primary {
+    background-color: $p;
+}

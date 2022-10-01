@@ -1,0 +1,4 @@
+.form-group {
+    @include flex-box(column, flex-start, flex-start);
+    margin-bottom: 12px;
+  }

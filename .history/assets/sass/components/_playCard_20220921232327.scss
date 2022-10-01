@@ -1,0 +1,29 @@
+.admin__play-list-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 58px;
+}
+.play-card {       
+    display: flex;
+    flex-direction: column;
+   
+    // width: calc(25% - 16px);
+    margin: 0 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-secondary);
+    border-radius: 8px;     
+}
+
+.play-card-image-wrapper{
+    display: flex;
+    width: 49px;
+    height: 43px;
+    margin-bottom: 42px;
+    margin-top: 56px;
+    align-items: center;
+    justify-content: center;
+}
+.card-image {
+    width: 200px;
+}

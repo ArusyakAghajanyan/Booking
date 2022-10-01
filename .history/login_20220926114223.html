@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Login</title>
+</head>
+   <body>
+        <div class="login__center">
+            <h1 class="login__center-title">Login</h1>
+            <form method="post" class="login__center-form">
+                <div class="login__text-field">
+                    <input id="username" class="login__text-input" type="text" name="username" required>
+                    <span class="login__text-span"></span>
+                    <label for="username" class="login__text-label">Username</label>
+                </div>
+                <div class="login__text-field">
+                    <input id="password"  class="login__text-input" type="password" name="password" required>
+                    <span class="login__text-span"></span>
+                    <label for="password" class="login__text-label">Password</label>
+                </div>          
+                <div class="login__pass-field">
+                    Forgot Password?
+                </div>
+                <input class= "login__text-input base-button base-button--secondary" type="submit" value="Login" >
+                <div class="login__signup-field">
+                    Not a member? <a  class="login__signup" href="sign-up.html">Signup</a>
+                </div>  
+            </form>
+        </div>  
+        <script src="./js/" type="module"></script>      
+    </body>
+</html>

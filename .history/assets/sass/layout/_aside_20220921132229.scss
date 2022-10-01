@@ -1,0 +1,47 @@
+.aside {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: $primary;
+    padding: 20px;
+  }
+  
+  .aside__content {
+  
+  }
+  
+  .aside__logo {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color:  $primary-light;
+  }
+  
+  .aside__navigation {
+    margin: 0 -20px;
+    width: calc(100% + 40px);
+  }
+  
+  .aside__navigation-list {
+    @include flex-box(column, flex-start, flex-start);
+  
+  
+  }
+  
+  .aside__navigation-list-item {
+    width: 100%;
+    margin-bottom: 4px;
+    transition: background-color .3s ease-in-out;
+  
+    &:hover {
+      background-color: $primary-dark;
+    }
+  }
+  
+  .aside__navigation-list-link {
+    padding: 8px;
+    display: block;
+    color:  $primary-light;
+  }

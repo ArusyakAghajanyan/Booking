@@ -1,0 +1,16 @@
+.admin__play-list-container{
+    
+}
+.play-card {       
+    display: flex;
+    flex-direction: column;
+    width: calc(25% - 16px);
+    margin: 0 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-secondary);
+    border-radius: 8px;      
+}
+.play-card-image {
+    width: 200px;
+}
