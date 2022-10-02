@@ -180,6 +180,10 @@ a {
   color: #EDF0F5;
 }
 
+.cards-delete-button {
+  margin-bottom: 10px;
+}
+
 .container {
   padding: 0 20px;
 }
@@ -188,7 +192,6 @@ body {
   background-color: #EDF0F5;
 }
 
-.admin_form
 .login__center {
   background-color: #ffffff;
   position: absolute;
