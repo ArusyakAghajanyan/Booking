@@ -360,4 +360,8 @@ input[type="submit"]:hover {
   font-size: 16px;
   padding: 10px;
 }
+
+html, body {
+  scroll-behavior: smooth;
+}
 /*# sourceMappingURL=style.css.map */
