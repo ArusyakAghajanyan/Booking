@@ -71,7 +71,7 @@ async function handleGetPlays() {
 
 function renderData(data,booksData) {
   setHtmlFromArray($adminPlayListContainer, data, markupCreators.playCard);
-  setHtmlFromArray($adminPlayBookContainer, booksData, markupCreators.bookPlayCardAdmin);
+  setHtmlFromArray($adminPlayBookContainer, booksData, markupCreators.);
   renderedData = data;
   cardProcess();
   console.log(renderedData);
